@@ -1,0 +1,44 @@
+{
+    http.address=":3000"
+    http.path="/triggers"
+
+    outgoing {
+
+        hello {
+            word = "!hello"
+            drivers = [gogap-auth, gogap-greeter]
+            gogap-greeter = {
+                name = "Robot GoGap"
+                image="https://avatars2.githubusercontent.com/u/8731757?v=3&s=200"
+            }
+
+            gogap-auth = {
+                token = "a5abc87ce0dcd169d4560385c2be9d3a"
+            }
+        }
+
+        cmd {
+            word = "!cmd"
+            drivers = [gogap-auth, gogap-commands]
+            
+            gogap-auth = {
+                token = "8831067e28290392313ca4d81356abe3"
+            }
+
+            gogap-greeter = {
+               timeout = 5s
+                cwd = /
+                commands = {
+                    ping = {
+                        cmd = ping
+                    }
+
+                    ls = {
+                        cmd = ls
+                        cwd = /Users/zeal
+                    }
+                }
+            }
+        }
+    }
+}

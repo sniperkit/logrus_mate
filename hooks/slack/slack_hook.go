@@ -1,10 +1,10 @@
 package slack
 
 import (
-	"github.com/sirupsen/logrus"
 	"github.com/johntdyer/slackrus"
+	"github.com/sirupsen/logrus"
 
-	"github.com/gogap/logrus_mate"
+	"github.com/sniperkit/logrus_mate"
 )
 
 type SlackHookConfig struct {

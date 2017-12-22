@@ -1,9 +1,9 @@
 package logstash
 
 import (
-	"github.com/sirupsen/logrus"
 	"github.com/bshuster-repo/logrus-logstash-hook"
-	"github.com/gogap/logrus_mate"
+	"github.com/sirupsen/logrus"
+	"github.com/sniperkit/logrus_mate"
 )
 
 type LogstashHookConfig struct {

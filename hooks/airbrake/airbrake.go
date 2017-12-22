@@ -4,7 +4,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/gemnasium/logrus-airbrake-hook.v2"
 
-	"github.com/gogap/logrus_mate"
+	"github.com/sniperkit/logrus_mate"
 )
 
 type AirbrakeHookConfig struct {

@@ -4,7 +4,7 @@ import (
 	"github.com/gogap/errors"
 
 	"github.com/sirupsen/logrus"
-	"github.com/gogap/logrus_mate"
+	"github.com/sniperkit/logrus_mate"
 )
 
 type ExpanderHook struct {

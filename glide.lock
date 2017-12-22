@@ -1,0 +1,144 @@
+hash: 4e3851b9fc0682f0d0ed8e4998fe591c9a1105fe738b783f4867442b47838c9c
+updated: 2017-12-22T19:34:38.765897808+01:00
+imports:
+- name: github.com/adjust/bufio
+  version: fe7b595919dec00e50dd74eda9aa8c697856fe91
+- name: github.com/adjust/redis
+  version: d3df8da3a5f49a49cc5ff90768bdd9d7c2f06a8a
+- name: github.com/adjust/redisio
+  version: 2364ffa828016dd8b6408ae7f6741ccd4df5ef2c
+- name: github.com/aws/aws-sdk-go
+  version: d0cb8551ac28d362e77ea475e5b7b2ebaec06b6b
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/stscreds
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - internal/shareddefaults
+  - private/protocol
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/xml/xmlutil
+  - service/sqs
+  - service/sts
+- name: github.com/babaev/logrus_proxy_hook
+  version: 0eb605548984462965700362a1e3f5682e63b283
+- name: github.com/ballad89/gelfFormatter
+  version: 687224ec108da085a2f9cd4fe30e3175cf51084f
+- name: github.com/bshuster-repo/logrus-logstash-hook
+  version: ebf008572634916f3a9433d9471a0cd3f68fc772
+- name: github.com/bugsnag/bugsnag-go
+  version: 19aa9c3c89b5f1531c7ec0e4c2e22f692a097fd9
+  subpackages:
+  - errors
+- name: github.com/bugsnag/panicwrap
+  version: dd8df9a3778aaebc569794383e5c4ce87d6fd89e
+- name: github.com/csu/logrus_socketio
+  version: 57373cb6fe53603bbb7fd7963ca0bcb8d15b41d1
+- name: github.com/go-akka/configuration
+  version: 755180b9a146a94d76051113e9624bdc8327c499
+  subpackages:
+  - hocon
+- name: github.com/go-ini/ini
+  version: 32e4c1e6bc4e7d0d8451aa6b75200d19e37a536a
+- name: github.com/gogap/bearychat
+  version: 14b491e7c85c82c80aff0fccd853825dbc6ee6c6
+  subpackages:
+  - internal
+- name: github.com/gogap/errors
+  version: 149c546090d0ac947ee5f6772d431e30cf0f6f3b
+- name: github.com/gogap/stack
+  version: fef68dddd4f8092a1be1acacb121f847315e5c94
+- name: github.com/golang/snappy
+  version: 553a641470496b2327abcac10b36396bd98e45c9
+- name: github.com/gorilla/websocket
+  version: cdedf21e585dae942951e34d6defc3215b4280fa
+- name: github.com/jmespath/go-jmespath
+  version: dd801d4f4ce7ac746e7e7b4489d2fa600b3b096b
+- name: github.com/johntdyer/slack-go
+  version: 88ef3038545fa084d81f36e4a6943d112cdd74f6
+- name: github.com/johntdyer/slackrus
+  version: 3992f319fd0ac349483279ef74742cd787841cba
+- name: github.com/kardianos/osext
+  version: ae77be60afb1dcacde03767a8c37337fad28ac14
+- name: github.com/kz/discordrus
+  version: 9552996f102c91e7712fee70bd6417be63cc04bd
+- name: github.com/nsqio/go-nsq
+  version: 8c1ff52dff6fd3ecc19c418649bc643b18e862fc
+- name: github.com/nullseed/logruseq
+  version: 0a4a56c7bf1cbcc37642b251cb104a0c67e8dd49
+- name: github.com/orcaman/concurrent-map
+  version: d4c23bd0e01134806215ffe65ba3fd22ec6721f7
+- name: github.com/pkg/errors
+  version: e881fd58d78e04cf6d0de1217f8707c8cc2249bc
+- name: github.com/Shopify/logrus-bugsnag
+  version: 577dee27f20dd8f1a529f82210094af593be12bd
+- name: github.com/sirupsen/logrus
+  version: d682213848ed68c0a260ca37d6dd5ace8423f5ba
+  subpackages:
+  - hooks/syslog
+- name: github.com/sohlich/elogrus
+  version: bd39a993712bbc873207eb63ef40ed0061ae763f
+- name: github.com/streadway/amqp
+  version: ff34ec9cc65c2a23db5126d962c431018f65af59
+- name: github.com/tsarpaul/logrus_sqs
+  version: 3f17ab3f56e8b708e2cf9703b892287f0da7f4c9
+- name: github.com/weekface/mgorus
+  version: 83720e22971a8301c5b2738c9364accd3d9eb13a
+- name: github.com/xentek/logbeat
+  version: 860830872e289512a119c8f2dac23ee75e07de83
+- name: github.com/zbindenren/logrus_mail
+  version: 14351100bf70956ab9c91c883b1a63809b0d0df7
+- name: github.com/zhouhui8915/engine.io-go
+  version: 02ea08f0971f8aa937eb87893c5d193c0763db38
+  subpackages:
+  - message
+  - parser
+  - polling
+  - transport
+  - websocket
+- name: github.com/zhouhui8915/go-socket.io-client
+  version: 3929d711cf924150d272dbf168fb60cf0519bc1c
+- name: github.com/zignd/amqpgrus
+  version: 9ca9c760d4be6996c1e8f1e4fe639eb93c70af0a
+- name: golang.org/x/crypto
+  version: d585fd2cc9195196078f516b69daff6744ef5e84
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 83801418e1b59fb1880e363299581ee543af32ca
+  subpackages:
+  - unix
+  - windows
+- name: gopkg.in/airbrake/gobrake.v2
+  version: 668876711219e8b0206e2994bf0a59d889c775aa
+- name: gopkg.in/gemnasium/logrus-airbrake-hook.v2
+  version: e928b033a891c0175fb643d5aa0779e86325eb12
+- name: gopkg.in/gemnasium/logrus-graylog-hook.v2
+  version: daf02e0efe6f4dee3f7085184f5d527cf5cf0f6b
+- name: gopkg.in/mgo.v2
+  version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
+- name: gopkg.in/olivere/elastic.v5
+  version: 79ff368708b3a2a9da641dc831d95fd0782bf4ef
+  subpackages:
+  - config
+  - uritemplates
+testImports: []

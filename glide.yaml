@@ -1,0 +1,31 @@
+package: github.com/sniperkit/logrus_mate
+ignore:
+- github.com/Sirupsen/logrus
+import:
+- package: github.com/Shopify/logrus-bugsnag
+- package: github.com/adjust/redis
+- package: github.com/adjust/redisio
+- package: github.com/babaev/logrus_proxy_hook
+- package: github.com/ballad89/gelfFormatter
+- package: github.com/bshuster-repo/logrus-logstash-hook
+- package: github.com/bugsnag/bugsnag-go
+- package: github.com/csu/logrus_socketio
+- package: github.com/go-akka/configuration
+- package: github.com/gogap/bearychat
+- package: github.com/gogap/errors
+- package: github.com/johntdyer/slackrus
+- package: github.com/kz/discordrus
+- package: github.com/nsqio/go-nsq
+- package: github.com/nullseed/logruseq
+- package: github.com/orcaman/concurrent-map
+- package: github.com/sirupsen/logrus
+  subpackages:
+  - hooks/syslog
+- package: github.com/sohlich/elogrus
+- package: github.com/tsarpaul/logrus_sqs
+- package: github.com/weekface/mgorus
+- package: github.com/xentek/logbeat
+- package: github.com/zbindenren/logrus_mail
+- package: github.com/zignd/amqpgrus
+- package: gopkg.in/gemnasium/logrus-airbrake-hook.v2
+- package: gopkg.in/gemnasium/logrus-graylog-hook.v2

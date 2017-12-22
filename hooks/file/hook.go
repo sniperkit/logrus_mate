@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/sirupsen/logrus"
-	"github.com/gogap/logrus_mate"
+	"github.com/sniperkit/logrus_mate"
 
-	"github.com/gogap/logrus_mate/hooks/utils/caller"
+	"github.com/sniperkit/logrus_mate/hooks/utils/caller"
 )
 
 func init() {

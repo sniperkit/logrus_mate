@@ -1,0 +1,11 @@
+{
+    "env" : [
+        {
+            "name" : "production",
+            "packages": [
+                { "name" : "github.com/adjust/redis", "branch" : "master" }
+            ]
+        }
+   ],
+   "testdir": "."
+}

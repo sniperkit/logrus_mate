@@ -2,10 +2,10 @@ package bugsnag
 
 import (
 	"github.com/Shopify/logrus-bugsnag"
-	"github.com/sirupsen/logrus"
 	"github.com/bugsnag/bugsnag-go"
+	"github.com/sirupsen/logrus"
 
-	"github.com/gogap/logrus_mate"
+	"github.com/sniperkit/logrus_mate"
 )
 
 func init() {

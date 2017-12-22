@@ -3,9 +3,9 @@ package bearychat
 import (
 	"fmt"
 
-	"github.com/sirupsen/logrus"
 	"github.com/gogap/bearychat"
-	"github.com/gogap/logrus_mate"
+	"github.com/sirupsen/logrus"
+	"github.com/sniperkit/logrus_mate"
 )
 
 var allLevels = []logrus.Level{
